@@ -28,4 +28,6 @@ function deepestChild()
 {
   var nd = document.querySelectorAll('div#grand-node div div div div');
   
+  return nd;
+  
 }
