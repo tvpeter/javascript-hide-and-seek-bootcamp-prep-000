@@ -12,5 +12,12 @@ function nestedTarget(target)
 
 function increaseRankBy(n)
 {
-  var listLi = document.getElementByClassName();
+  var listLi = document.querySelectorAll(".ranked-list");
+   
+  
+   
+  for( let i=1; i<n; i++)
+  {
+    
+  }
 }
