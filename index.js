@@ -9,3 +9,8 @@ function nestedTarget(target)
   var tg = el.querySelector('.target');
   return tg;
 }
+
+function increaseRankBy(n)
+{
+  
+}
