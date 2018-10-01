@@ -16,9 +16,10 @@ function increaseRankBy(n)
    
   for( let i=1; i<n; i++)
   {
-    var li = document.createElement("li");
-    var text = document.createTextNode("Hello this is the new text");
-    li.appendChild(text);
-    listLi.
+     var li = document.createElement("li");
+     var text = document.createTextNode("Hello this is the new text");
+     var cm = li.appendChild(text);
+     listLi.appendChild(cm);
+    
   }
 }
